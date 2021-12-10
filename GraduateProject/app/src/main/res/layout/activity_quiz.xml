@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/page2heading"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:minHeight="48dp"
+                    android:textStyle="bold"
+                    android:text="@string/quiz1" />
+
+                <EditText
+                    android:id="@+id/edittext1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:hint="@string/marks1"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    tools:ignore="Autofill" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/quiz2" />
+
+                <EditText
+                    android:id="@+id/edittext2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:hint="@string/marks2"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    tools:ignore="Autofill" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:minHeight="48dp"
+                    android:textStyle="bold"
+                    android:text="@string/quiz3" />
+                <EditText
+                    android:id="@+id/edittext3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:hint = "@string/marks3"
+                    android:inputType="numberDecimal"
+                    android:layout_weight="0.3"
+                    tools:ignore="Autofill"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/quiz4" />
+                <EditText
+                    android:id="@+id/edittext4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:hint = "@string/marks4"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:layout_weight="0.3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/quiz5" />
+                <EditText
+                    android:id="@+id/edittext5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:hint = "@string/marks5"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:layout_weight="0.3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/quiz6" />
+                <EditText
+                    android:id="@+id/edittext6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:hint = "@string/marks6"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:layout_weight="0.3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/quiz7" />
+                <EditText
+                    android:id="@+id/edittext7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:hint = "@string/marks7"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:layout_weight="0.3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/quiz8" />
+                <EditText
+                    android:id="@+id/edittext8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:hint = "@string/marks8"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:layout_weight="0.3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/quiz9" />
+                <EditText
+                    android:id="@+id/edittext9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:hint = "@string/marks9"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:layout_weight="0.3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/quiz10" />
+
+                <EditText
+                    android:id="@+id/edittext10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:hint="@string/marks10"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:minHeight="48dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/quiz11" />
+                <EditText
+                    android:id="@+id/edittext11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:hint="@string/marks11"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:minHeight="48dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:minHeight="48dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/quiz12" />
+                <EditText
+                    android:id="@+id/edittext12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:hint="@string/marks12"
+                    android:inputType="numberDecimal"
+                    tools:ignore="Autofill"
+                    android:minHeight="48dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="modifyData"
+                    android:text="@string/next" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="goBack"
+                    android:text="@string/back" />
+            </TableRow>
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</ScrollView>
